@@ -1,0 +1,48 @@
+body {
+    background-color:white;
+    color: darkblue;
+    
+}
+
+button{
+    background-color: #3d78d1;
+    color: white;
+    padding:5px 20px ;
+    border: 1px solid #3d78d1 ;
+    border-radius: 13px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+button:hover{
+opacity: 60%;
+color: #3d78d1;
+background-color: white;
+
+}
+#tech{
+    border: 1px solid red;
+    padding: 23px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+#tech:hover{
+    padding: 12px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    background-color: rgba(16, 16, 67, 0.664);
+    color: aliceblue;
+}
+@media (max-width:768px){
+    #first{
+        display: flex;
+        flex-direction: column;
+    }
+}
